@@ -7,54 +7,56 @@ export default class Header extends Component {
             <div>
                 <header>
                     <Router>
-                        <div className="header-area ">
-                            <div id="sticky-header" className="main-header-area">
-                                <div className="container-fluid ">
-                                    <div className="header_bottom_border">
-                                        <div className="row align-items-center">
-                                            <div className="col-xl-3 col-lg-2">
-                                                <div className="logo">
-                                                    <Link to="/">
-                                                        <img src="img/logo.png" alt="logo" />
-                                                    </Link>
+
+                    <div class="header-area ">
+                        <div id="sticky-header" class="main-header-area">
+                            <div class="container-fluid ">
+                                <div class="header_bottom_border">
+                                    <div class="row align-items-center">
+                                        <div class="col-xl-3 col-lg-2">
+                                            <div class="logo">
+                                                <Link to="index.html">
+                                                    <img src="img/logo.png" alt="" />
+                                                </Link>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-7">
+                                            <div class="main-menu  d-none d-lg-block">
+                                                <nav>
+
+                                                </nav>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                                            <div class="Appointment">
+                                                <div class="phone_num d-none d-xl-block">
+
+                                                </div>
+                                                <div class="d-none d-lg-block">
+
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="col-12">
+                                            <div class="mobile_menu d-block d-lg-none"></div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </Router>
-                </header>
 
-                <div className="slider_area">
-                    <div className="single_slider  d-flex align-items-center slider_bg_1">
-                        <div className="container">
-                            <div className="row align-items-center">
-                                <div className="col-lg-7 col-md-6">
-                                    <div className="slider_text">
-                                        {/* <h5
-                                        className="wow fadeInLeft"
-                                        data-wow-duration="1s"
-                                        data-wow-delay=".2s"
-                                        >
-                                        4536+ Jobs listed
-                                        </h5> */}
-                                        <h3
-                                            className="wow fadeInLeft"
-                                            data-wow-duration="1s"
-                                            data-wow-delay=".3s"
-                                        >
-                                        Developer Jobs For You
-                                        </h3>
-                                        
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="ilstration_img wow fadeInRight d-none d-lg-block text-right" data-wow-duration="1s" data-wow-delay=".2s">
-                        <img src="img/banner/illustration.png" alt="" />
+                    </Router>
+                </header>
+                <div class="bradcam_area bradcam_bg_1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="bradcam_text">
+                                    <h3>Search For Developer Jobs</h3>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
