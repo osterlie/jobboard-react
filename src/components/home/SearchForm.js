@@ -3,10 +3,7 @@ import { Form, Col } from 'react-bootstrap'
 
 export default function SearchForm({params, onParamChange}) {
     return (
-        <div className="container-fluid mt-4">
-            <div className="row justify-content-center">
-                
-
+    
                 <Form >
                     <Form.Row className="align-items-end">
                         <Form.Group as={Col}>
@@ -22,7 +19,6 @@ export default function SearchForm({params, onParamChange}) {
                         </Form.Group>
                     </Form.Row>
                 </Form>
-            </div>
-        </div>
+           
     )
 }
